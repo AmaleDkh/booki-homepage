@@ -1,4 +1,5 @@
-/****** General ***********/
+/* General */
+
 * {
     font-family: 'Raleway', sans-serif;
 }
@@ -23,13 +24,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 50px;
-}
-
-.main-container {
-    width: 100%;
-    max-width: 1440px;
-    padding: 0 50px;
-    box-sizing: border-box;
 }
 
 a {
@@ -88,48 +82,75 @@ header {
     align-items: center;
 }
 
-/****** Hebergements And Populaires ***********/
-.hebergements-and-populaires {
+/* Filtres */
+
+.filter-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.filter-intro  {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.filter-intro-title {
+    font-size: 22px;
+    margin: 0;
+}
+
+.filter-intro-para {
+    margin: 0;
+}
+
+/* Hébergements et populaires */
+
+.accomodations-and-popular {
     display: flex;
     justify-content: space-between;
 }
 
-.hebergements-and-populaires section {
+.accomodations-and-popular section {
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
 }
 
-/****** Hebergements ***********/
-.hebergements {
+/* Hébergements à Marseille */
+
+.accomodations-section {
     width: 65%;
 }
 
-/****** Populaires ***********/
-.populaires {
+/* Les plus populaires */
+
+.popular-section {
     width: 32%;
 }
 
-.populaires-title {
+.popular-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.populaires-cards .card {
+.popular-cards .card {
     display: flex;
     margin-top: 33px;
 }
 
-.populaires-cards img {
+.popular-cards img {
     width: 33%;
     height: 136px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 
-.populaires-cards .card-content {
+.popular-cards .card-content {
     width: 67%;
     padding-left: 15px;
     display: flex;
@@ -138,16 +159,16 @@ header {
     box-sizing: border-box;
 }
 
-.populaires-cards .card-title {
+.popular-cards .card-title {
     margin-top: 10px;
     margin-bottom: 4px;
 }
 
-.populaires-cards .card-subtitle {
+.popular-cards .card-subtitle {
     margin: 0;
 }
 
-.populaires-cards .card-rating {
+.popular-cards .card-rating {
     margin-bottom: 5px;
 }
 
@@ -159,34 +180,34 @@ header {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-    .hebergements-and-populaires {
+    .accomodations-and-popular {
         flex-direction: column;
     }
 
-    .hebergements {
+    .accomodations-section {
         width: 100%;
     }
 
-    .populaires {
+    .popular-section {
         width: 100%;
         margin-top: 50px;
     }
 
-    .populaires-cards {
+    .popular-cards {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
 
-    .populaires-cards a {
+    .popular-cards a {
         width: 30%;
     }
 
-    .populaires-cards .card-title {
+    .popular-cards .card-title {
         font-size: 14px;
     }
 
-    .populaires-cards .card-subtitle {
+    .popular-cards .card-subtitle {
         font-size: 13px;
     }
 }
