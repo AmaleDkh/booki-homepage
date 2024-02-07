@@ -201,6 +201,27 @@ header {
     background-color: white;
 }
 
+.filter-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.filter-info .fa-solid  {
+    display: flex;
+    min-width: 24px;
+    min-height: 24px;
+    border: 1px solid #D9D9D9;
+    border-radius: 90px;
+    justify-content: center;
+    align-items: center;
+    font-size: x-small;
+}
+
+.filter-info p {
+    margin: 0;
+}
+
 /* Hébergements et populaires */
 
 .accomodations-and-popular {
