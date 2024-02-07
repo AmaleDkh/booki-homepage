@@ -106,6 +106,79 @@ header {
     margin: 0;
 }
 
+.filter-form {
+    display: flex;
+}
+
+.filter-picto-location {
+    background-color: #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.filter-picto-location i {
+    color: black;
+    padding: 16.5px 20px 16.5px 20px;
+} 
+
+.filter-input-location {
+    padding: 13px;
+    font-size: 18px;
+    border: 1px solid #F2F2F2;
+    border-right: none;
+    border-left: none;
+}
+
+.filter-input-location::placeholder {
+    color: black;
+    text-align: center;
+    font-weight: bold;  
+}
+
+/* Chrome Opera Safari */
+:focus::-webkit-input-placeholder {
+    opacity: 0;
+
+    -webkit-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+/* Firefox 19+ */
+::-moz-placeholder {
+    opacity: 0;
+    -webkit-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+/* Firefox 18- */
+:-moz-placeholder {
+    opacity: 0;
+    -webkit-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+/* IE 10+ */
+:-ms-input-placeholder {
+    opacity: 0;
+    -webkit-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+.filter-button-search {
+    color: white;
+    background-color: #0065FC;
+    border: none;
+    padding: 14px 20px 14px 20px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.filter-picto-search {
+    display: none;
+}
+
 /* Hébergements et populaires */
 
 .accomodations-and-popular {
