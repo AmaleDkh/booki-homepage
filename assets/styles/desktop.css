@@ -236,12 +236,6 @@ header {
     box-sizing: border-box;
 }
 
-/* Hébergements à Marseille */
-
-.accomodations-section {
-    width: 65%;
-}
-
 /* Les plus populaires */
 
 .popular-section {
