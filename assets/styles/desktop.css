@@ -236,6 +236,68 @@ header {
     box-sizing: border-box;
 }
 
+/* Hébergements à Marseille */
+
+.accomodations-section {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+
+.accomodations-cards {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.accomodations-cards .card {
+    margin-top: 30px;
+    width: 30%;
+    display: flex;
+    padding: 5px 5px 0 5px;
+}
+
+.accomodations-cards a {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.accomodations-cards img {
+    height: 110px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.accomodations-cards .card-content {
+    margin: auto 15px;
+}
+
+.accomodations-cards .card-txt {
+    margin: 7.5px 0;
+}
+
+.accomodations-cards .card-title {
+    margin: 0;
+}
+
+.accomodations-cards .card-subtitle {
+    margin: 6px 0 0 0;
+    font-size: 14px;
+}
+
+.accomodations-cards .card-rating {
+    margin-bottom: 7.5px;
+}
+
+.accomodations-info {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
 /* Les plus populaires */
 
 .popular-section {
