@@ -10,4 +10,46 @@
     .filter-options button {
         font-size: 16px;
     }
+    
+     .accomodations-and-popular {
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .accomodations-section {
+        width: 100%;   
+    } 
+    
+    .popular-section {
+        width: 100%;
+    }
+
+    .popular-cards {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .popular-cards .card {
+        width: 100%;
+    }
+
+    .popular-cards a {
+        width: 100%;
+    } 
+
+    .activities-section {
+        margin: 65px 30px 0 30px;
+    }
+
+    .activities-cards .card {
+        height: 270px;
+    }
+
+    .activities-cards img {
+        height: 75%;
+    }
+
+    .activities-cards .card-content {
+        height: 25%;
+    }
 }
