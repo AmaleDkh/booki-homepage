@@ -1,0 +1,13 @@
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .filter {
+        flex-direction: column;
+    }
+
+    .filter h3 {
+        margin: 0;
+    }
+
+    .filter-options button {
+        font-size: 16px;
+    }
+}
