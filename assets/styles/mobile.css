@@ -159,4 +159,38 @@
     .popular-cards img {
         width: 30%;
     }
+
+    .activities-section {
+        padding: 0px 20px;
+        margin: 40px 0 0 0;
+        flex-direction: column;
+    }
+
+    .activities-section .section-title {
+        margin-bottom: 15px;
+    }
+
+    .activities-cards {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .activities-cards .card {
+        width: 100%;
+    }
+
+    .activities-cards img {
+        height: 200px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        padding: 30px 20px;
+        gap: 45px;
+    }
+
+    ul {
+        margin-bottom: 0;
+    }
 }
