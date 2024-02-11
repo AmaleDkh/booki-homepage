@@ -54,12 +54,12 @@
 
     .popular-cards a {
         width: 100%;
-    } 
+    }  
 
     /* Activités à Marseille */
 
     .activities-section {
-        margin: 65px 30px 0 30px;
+        margin: 65px 30px 0;
     }
 
     .activities-cards .card {
