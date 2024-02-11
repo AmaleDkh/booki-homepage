@@ -389,11 +389,13 @@ header {
 
 footer {
     background-color: #F2F2F2;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    display: flex;
     padding: 30px 30px 0px 30px ;
-    }
+}
+
+footer nav {
+    width: 35%;
+}
 
 footer h3 {
     margin: 0;
