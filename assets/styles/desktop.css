@@ -377,7 +377,7 @@ header {
     border-top-right-radius: 20px;
 }
 
-.activities-cards .card-content {
+.activities-cards .card-title {
     height: 15%;
     display: flex;
     flex-direction: column;

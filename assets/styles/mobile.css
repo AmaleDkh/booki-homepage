@@ -198,6 +198,10 @@
         height: 200px;
     }
 
+    .activities-cards .card-title {
+        margin: 15px 15px;
+    }
+
     /* Footer */
 
     footer {
