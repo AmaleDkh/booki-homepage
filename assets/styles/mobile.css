@@ -169,6 +169,10 @@
         gap: 15px;
     }
 
+    .popular-cards .card {
+        margin-top: 15px;
+    }
+
     .popular-cards img {
         width: 30%;
     }
@@ -182,16 +186,16 @@
     }
 
     .activities-section .section-title {
-        margin-bottom: 15px;
+        margin-bottom: 0;
     }
 
     .activities-cards {
         flex-direction: column;
-        gap: 15px;
     }
 
     .activities-cards .card {
         width: 100%;
+        margin-top: 15px;
     }
 
     .activities-cards img {
