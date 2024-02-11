@@ -107,5 +107,56 @@
     .filter-info {
         gap: 10px;
     }
+    
+    .accomodations-and-popular {
+        flex-direction: column-reverse;
+        background-color: white;
+        width: 100%;
+    }
 
+    .accomodations-and-popular section {
+        border-radius: 0;
+        padding: 30px 20px;
+    }
+
+    .accomodations-and-popular .accomodations-section {
+        background-color: white;
+        width: 100%;
+    }
+
+    .accomodations-cards { 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .accomodations-cards .card {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .accomodations-cards a {
+        width: 100%
+    }
+
+    .accomodations-cards img {
+        height: 170px;
+    }
+
+    .popular-section {
+        width: auto;
+    }
+
+    .popular-section-title {
+        margin-bottom: 15px;
+    }
+
+    .popular-cards {
+        gap: 15px;
+    }
+
+    .popular-cards img {
+        width: 30%;
+    }
 }
