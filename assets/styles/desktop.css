@@ -408,39 +408,36 @@ ul {
     gap: 18px;
 }
 
-/* Le code ci-dessous correspond à la version responsive uniquement */
+/* Media queries pour desktop */
 
-/****** Media queries ***********/
-/* Medium devices (tablets, less/equal than 1024px) */
-/* @media (max-width: 1024px) {
-    .accomodations-and-popular {
-        flex-direction: column;
+@media all and (min-width: 1024px) {
+    
+    /* Header */
+
+    .navigation-menu a:hover {
+        border-top: solid 2px;
+        border-top-color: #0065FC;
+        color: #0065FC;   
+        cursor: pointer;
     }
 
-    .accomodations-section {
-        width: 100%;
+    /* Filtres */
+
+    .filter-options button:hover {
+        background-color: #DEEBFF;
+        cursor: pointer
     }
 
-    .popular-section {
-        width: 100%;
-        margin-top: 50px;
+    /* Hébergements à Marseille */
+
+    .accomodations-info:hover {
+        cursor: pointer;
     }
 
-    .popular-cards {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+    /* Footer */
+
+    footer li:hover {
+        cursor: pointer;
     }
 
-    .popular-cards a {
-        width: 30%;
-    }
-
-    .popular-cards .card-title {
-        font-size: 14px;
-    }
-
-    .popular-cards .card-subtitle {
-        font-size: 13px;
-    }
-} */
+}
