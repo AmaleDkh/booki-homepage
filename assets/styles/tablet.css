@@ -44,16 +44,18 @@
     }
 
     .popular-cards {
+        display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
 
     .popular-cards .card {
-        width: 100%;
+        width: 30%;
     }
 
     .popular-cards a {
         width: 100%;
+        display: flex;
     }  
 
     /* Activités à Marseille */
