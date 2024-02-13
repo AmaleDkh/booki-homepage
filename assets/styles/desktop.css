@@ -90,7 +90,7 @@ header {
     margin-bottom: 50px;
 }
 
-.filter-intro  {
+.filter-intro {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -117,7 +117,7 @@ header {
 .filter-picto-location i {
     color: black;
     padding: 16.5px 20px;
-} 
+}
 
 .filter-input-location {
     padding: 13px;
@@ -130,7 +130,7 @@ header {
 .filter-input-location::placeholder {
     color: black;
     text-align: center;
-    font-weight: bold;  
+    font-weight: bold;
     text-align: left;
 }
 
@@ -182,7 +182,7 @@ header {
 .filter {
     display: flex;
     gap: 15px;
-} 
+}
 
 .filter-options {
     display: flex;
@@ -207,7 +207,7 @@ header {
     gap: 15px;
 }
 
-.filter-info .fa-solid  {
+.filter-info .fa-solid {
     display: flex;
     min-width: 24px;
     min-height: 24px;
@@ -242,7 +242,6 @@ header {
     width: 65%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
 }
 
 .accomodations-cards {
@@ -255,12 +254,10 @@ header {
 .accomodations-cards .card {
     margin-top: 30px;
     width: 30%;
-    display: flex;
     padding: 5px 5px 0;
 }
 
 .accomodations-cards a {
-    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -311,12 +308,10 @@ header {
 }
 
 .popular-cards .card {
-    display: flex;
     margin-top: 33px;
 }
 
 .popular-cards a {
-    width: 100%;
     display: flex;
 }
 
@@ -417,13 +412,13 @@ footer ul {
 /* Media queries pour desktop */
 
 @media all and (min-width: 1024px) {
-    
+
     /* Header */
 
     .navigation-menu a:hover {
         border-top: solid 2px;
         border-top-color: #0065FC;
-        color: #0065FC;   
+        color: #0065FC;
         cursor: pointer;
     }
 

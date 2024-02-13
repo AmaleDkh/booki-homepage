@@ -1,12 +1,13 @@
 @media all and (min-width: 768px) and (max-width: 1024px) {
-    
+
     /* General */
-    
+
     body {
         padding: 0;
     }
 
-    main, header {
+    main,
+    header {
         padding: 0px 30px;
     }
 
@@ -25,20 +26,20 @@
     }
 
     /* Hébergements à Marseille et les plus populaires */
-    
+
     .accomodations-and-popular {
         flex-direction: column;
         gap: 50px;
     }
 
     /* Hebergements à Marseille */
-    
-    .accomodations-section {
-        width: 100%;   
-    } 
 
-    /* Les plus populaires */ 
-    
+    .accomodations-section {
+        width: 100%;
+    }
+
+    /* Les plus populaires */
+
     .popular-section {
         width: 100%;
     }
@@ -52,11 +53,6 @@
     .popular-cards .card {
         width: 30%;
     }
-
-    .popular-cards a {
-        width: 100%;
-        display: flex;
-    }  
 
     /* Activités à Marseille */
 
@@ -76,7 +72,7 @@
         height: 25%;
     }
 
-    /* Footer */ 
+    /* Footer */
 
     footer {
         margin: 0 30px;
