@@ -78,7 +78,7 @@ header {
 }
 
 .navigation-menu a {
-    margin: auto;
+    padding: 15px 0;
 }
 
 /* Filtres */
@@ -87,7 +87,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .filter-intro {
@@ -135,32 +135,44 @@ header {
 }
 
 /* Chrome Opera Safari */
+
 :focus::-webkit-input-placeholder {
     opacity: 0;
-
-    -webkit-transition: opacity .5s ease-in-out;
     transition: opacity .5s ease-in-out;
 }
 
 /* Firefox 19+ */
-::-moz-placeholder {
+
+:focus::-moz-placeholder {
     opacity: 0;
-    -webkit-transition: opacity .5s ease-in-out;
-    transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out; 
+}
+
+::-moz-placeholder {
+    opacity:1; 
 }
 
 /* Firefox 18- */
-:-moz-placeholder {
+
+:focus:-moz-placeholder {
     opacity: 0;
-    -webkit-transition: opacity .5s ease-in-out;
     transition: opacity .5s ease-in-out;
 }
 
-/* IE 10+ */
-:-ms-input-placeholder {
+:-moz-placeholder {
+    opacity:1; 
+}
+
+/* Internet Explorer 10+ */
+
+:focus::-ms-input-placeholder {
     opacity: 0;
-    -webkit-transition: opacity .5s ease-in-out;
+    -ms-transition: opacity .5s ease-in-out;
     transition: opacity .5s ease-in-out;
+}
+
+::-ms-input-placeholder {
+    opacity:1; 
 }
 
 .filter-button-search {
@@ -420,6 +432,7 @@ footer ul {
         border-top-color: #0065FC;
         color: #0065FC;
         cursor: pointer;
+        padding-top: 13px;
     }
 
     /* Filtres */

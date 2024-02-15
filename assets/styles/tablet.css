@@ -11,6 +11,16 @@
         padding: 0px 30px;
     }
 
+    /* Header */
+
+    .navigation-menu a:hover {
+        border-top: solid 2px;
+        border-top-color: #0065FC;
+        color: #0065FC;
+        cursor: pointer;
+        padding-top: 13px;
+    }
+
     /* Filtres */
 
     .filter {
@@ -25,6 +35,11 @@
         font-size: 16px;
     }
 
+    .filter-options button:hover {
+        background-color: #DEEBFF;
+        cursor: pointer
+    }
+
     /* Hébergements à Marseille et les plus populaires */
 
     .accomodations-and-popular {
@@ -36,6 +51,10 @@
 
     .accomodations-section {
         width: 100%;
+    }
+
+    .accomodations-info:hover {
+        cursor: pointer;
     }
 
     /* Les plus populaires */
@@ -77,4 +96,9 @@
     footer {
         margin: 0 30px;
     }
+
+    footer li:hover {
+        cursor: pointer;
+    }
+
 }

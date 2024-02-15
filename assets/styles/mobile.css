@@ -104,6 +104,11 @@
         justify-content: center;
     }
 
+    .filter-options button:hover {
+        background-color: #DEEBFF;
+        cursor: pointer
+    }
+
     .filter-info {
         gap: 10px;
     }
