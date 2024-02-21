@@ -1,4 +1,4 @@
-@media screen and (max-width: 767px) {
+@media all and (max-width: 767px) {
 
     /* General */
 
@@ -6,67 +6,92 @@
         padding: 0;
     }
 
+    .mobile-width-max,
+    .activities-cards .card,
+    .accomodations-cards .card {
+        width: 100%;
+    }
+
+    .accomodations-cards .card,
+    .popular-cards .card,
+    .activities-cards .card {
+        margin-top: 15px;
+    }
+
+    .accomodations-and-popular section,
+    .footer {
+        padding: 30px 20px;
+    }
+
+    .mobile-padding {
+        padding: 0 20px;
+    }
+
+    .mobile-display-flex {
+        display: flex;
+    }
+
+    .mobile-flex-direction-column {
+        flex-direction: column;
+    }
+
+    .mobile-flex-justify-center {
+        justify-content: center;
+    }
+
+    .mobile-flex-align-center {
+        align-items: center;
+    }
+
     /* Header */
 
     header {
-        flex-direction: column;
-        align-items: center;
         gap: 30px;
     }
 
     .navigation-menu {
-        width: 100%;
         gap: 0px;
     }
 
-    .menu-accomodations {
-        width: 50%;
-        display: flex;
-        justify-content: center;
-        border-bottom: 2px solid #0065FC;
-        padding-bottom: 15px;
+    .navigation-menu a:hover {
+        border-top: none;
+        border-bottom-color: var(--main-color);
+        color: var(--main-color);
+        padding-top: 13px;
     }
 
-    .menu-activities {
+    .menu-link-style {
         width: 50%;
-        display: flex;
-        justify-content: center;
-        border-bottom: 2px solid #F2F2F2;
-        padding-bottom: 15px;
+        border-bottom: 2px solid var(--main-bg-color);
     }
 
     /* Filtres */
 
-    .filter-section {
-        padding: 0 15px;
-        margin-bottom: 30px;
+    .form-location {
+        position: relative;
+        margin: 0 30px 30px 20px;
     }
 
     .fa-location-dot {
         width: 14px;
         height: 18px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
-    .filter-form {
-        position: relative;
-        margin-right: 15px;
-    }
-
-    .filter-input-location {
-        width: 100%;
+    .input-location {
         padding-left: 20px;
     }
 
-    .filter-button-search {
+    .input-location::placeholder {
+        text-align: left;
+    }
+
+    .button-search {
         display: none;
     }
 
-    .filter-picto-search {
+    .picto-search {
         display: block;
-        background-color: #0065FC;
+        background-color: var(--main-color);
         border: none;
         padding: 17px;
         border-radius: 15px;
@@ -80,40 +105,27 @@
         color: white;
         width: 17px;
         height: 17px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
-    .filter {
-        flex-direction: column;
-    }
-
-    .filter h3 {
-        margin: 0;
+    .filter-section {
+        margin-bottom: 30px;
     }
 
     .filter-options {
         flex-wrap: wrap;
-        justify-content: center;
     }
 
     .filter-options button {
-        width: 43%;
+        width: 47%;
         font-size: 14px;
-        justify-content: center;
-    }
-
-    .filter-options button:hover {
-        background-color: #DEEBFF;
-        cursor: pointer
+        padding: 14px 8px;
     }
 
     .filter-info {
         gap: 10px;
     }
 
-    /* Hébergements à Marseille et les plus populaires */
+    /* Hébergements à Marseille & Les plus populaires */
 
     .accomodations-and-popular {
         flex-direction: column-reverse;
@@ -121,23 +133,16 @@
 
     .accomodations-and-popular section {
         border-radius: 0;
-        padding: 30px 20px;
     }
 
     /* Hébergements à Marseille */
 
     .accomodations-and-popular .accomodations-section {
         background-color: white;
-        width: 100%;
-    }
-
-    .accomodations-cards {
-        flex-direction: column;
     }
 
     .accomodations-cards .card {
-        width: auto;
-        margin-top: 15px;
+        box-sizing: border-box;
     }
 
     .accomodations-cards img {
@@ -146,14 +151,6 @@
 
     /* Les plus populaires */
 
-    .popular-section {
-        width: 100%;
-    }
-
-    .popular-cards .card {
-        margin-top: 15px;
-    }
-
     .popular-cards img {
         width: 30%;
     }
@@ -161,22 +158,11 @@
     /* Activités à Marseille */
 
     .activities-section {
-        padding: 0px 20px;
         margin: 40px 0 0;
-        flex-direction: column;
     }
 
     .activities-section .section-title {
         margin-bottom: 0;
-    }
-
-    .activities-cards {
-        flex-direction: column;
-    }
-
-    .activities-cards .card {
-        width: 100%;
-        margin-top: 15px;
     }
 
     .activities-cards img {
@@ -190,12 +176,10 @@
     /* Footer */
 
     footer {
-        flex-direction: column;
-        padding: 30px 20px;
         gap: 45px;
     }
 
-    footer nav {
+    .footer-nav {
         width: max-content;
     }
 }

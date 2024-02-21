@@ -11,62 +11,31 @@
         padding: 0px 30px;
     }
 
-    /* Header */
-
-    .navigation-menu a:hover {
-        border-top: solid 2px;
-        border-top-color: #0065FC;
-        color: #0065FC;
-        cursor: pointer;
-        padding-top: 13px;
+    .tablet-width-max {
+        width: 100%;
     }
 
-    /* Filtres */
-
-    .filter {
+    .tablet-flex-direction-column {
         flex-direction: column;
     }
 
-    .filter h3 {
-        margin: 0;
-    }
+    /* Filtres */
 
     .filter-options button {
         font-size: 16px;
     }
 
-    .filter-options button:hover {
-        background-color: #DEEBFF;
-        cursor: pointer
-    }
-
-    /* Hébergements à Marseille et les plus populaires */
+    /* Hébergements à Marseille & Les plus populaires */
 
     .accomodations-and-popular {
-        flex-direction: column;
         gap: 50px;
-    }
-
-    /* Hebergements à Marseille */
-
-    .accomodations-section {
-        width: 100%;
-    }
-
-    .accomodations-info:hover {
-        cursor: pointer;
     }
 
     /* Les plus populaires */
 
-    .popular-section {
-        width: 100%;
-    }
-
     .popular-cards {
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     .popular-cards .card {
@@ -74,10 +43,6 @@
     }
 
     /* Activités à Marseille */
-
-    .activities-section {
-        margin: 65px 30px 0;
-    }
 
     .activities-cards .card {
         height: 270px;
@@ -96,9 +61,4 @@
     footer {
         margin: 0 30px;
     }
-
-    footer li:hover {
-        cursor: pointer;
-    }
-
 }
