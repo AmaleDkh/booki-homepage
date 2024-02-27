@@ -16,15 +16,21 @@
     <link rel="stylesheet" href="./assets/styles/mobile.css" media="all and (max-width: 767px)">
 </head>
 
-<body class="box-sizing display-flex flex-direction-column">
+<body class="box-sizing display-flex flex-direction-column display-gap-50">
 
     <header class="display-flex flex-justify-space-between mobile-flex-direction-column mobile-flex-align-center">
         <img src="./assets/images/logo/booki.png" alt="logo du site Booki" class="logo">
         <nav class="navigation-menu display-flex mobile-width-max">
-            <a href="#accomodations-anchor"
-                class="menu-accomodations menu-link-style mobile-display-flex mobile-flex-justify-center">Hébergements</a>
-            <a href="#activities-anchor"
-                class="menu-activities menu-link-style mobile-display-flex mobile-flex-justify-center">Activités</a>
+            <ul class="list-style-type-none padding-left-0 margin-null display-flex display-gap-50 mobile-width-max">
+                <li class="cursor-pointer mobile-display-flex mobile-flex-justify-center">
+                    <a href="#accomodations-anchor"
+                        class="menu-accomodations menu-link-style mobile-display-flex mobile-flex-justify-center">Hébergements</a>
+                </li>
+                <li class="cursor-pointer mobile-display-flex mobile-flex-justify-center">
+                    <a href="#activities-anchor"
+                        class="menu-activities menu-link-style mobile-display-flex mobile-flex-justify-center">Activités</a>
+                </li>
+            </ul>
         </nav>
     </header>
 
@@ -32,7 +38,7 @@
         <h1 class="intro-title title-font-size mobile-padding">Trouvez votre hébergement pour des vacances de rêve</h1>
         <p class="intro-para mobile-padding">En plein centre-ville ou en pleine nature</p>
 
-        <form method="post" class="form-location margin-bottom display-flex">
+        <form method="post" class="form-location margin-bottom-30 display-flex">
             <label for="lieu" class="picto-location background-grey">
                 <i
                     class="fa-solid fa-location-dot mobile-display-flex mobile-flex-justify-center mobile-flex-align-center"></i>
@@ -46,10 +52,10 @@
             </button>
         </form>
 
-        <aside class="filter-section margin-bottom display-flex flex-direction-column mobile-padding">
-            <div class="filter display-flex tablet-flex-direction-column mobile-flex-direction-column display-gap">
+        <aside class="filter-section margin-bottom-30 display-flex flex-direction-column mobile-padding">
+            <div class="filter display-flex tablet-flex-direction-column mobile-flex-direction-column display-gap-15">
                 <span class="filter-title text-font-size font-bold display-flex flex-align-center">Filtres</span>
-                <div class="filter-options display-flex mobile-flex-justify-center display-gap">
+                <div class="filter-options display-flex mobile-flex-justify-center display-gap-15">
                     <button
                         class="background-white cursor-pointer font-bold display-flex flex-align-center mobile-flex-justify-center">
                         <i class="fa-solid fa-money-bill-wave"></i>
@@ -73,7 +79,7 @@
                 </div>
             </div>
 
-            <div class="filter-info display-flex flex-align-center display-gap">
+            <div class="filter-info display-flex flex-align-center display-gap-15">
                 <i class="fa-solid fa-info filter-picto display-flex flex-align-center flex-justify-center"></i>
                 <p class="margin-null">Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
@@ -82,11 +88,11 @@
         <div class="accomodations-and-popular display-flex flex-justify-space-between tablet-flex-direction-column"
             id="accomodations-anchor">
             <section
-                class="accomodations-section border-radius box-sizing large-padding background-grey display-flex flex-direction-column tablet-width-max mobile-width-max">
+                class="accomodations-section border-radius box-sizing padding-30 background-grey display-flex flex-direction-column tablet-width-max mobile-width-max">
                 <h2 class="section-title margin-null title-font-size">Hébergements à Marseille</h2>
                 <div
                     class="accomodations-cards height-max display-flex flex-justify-space-between mobile-flex-direction-column">
-                    <article class="card margin-top background-white border-radius">
+                    <article class="card margin-top-30 background-white border-radius">
                         <a href="#" class="height-max display-flex flex-direction-column card-padding">
                             <img src="./assets/images/hebergements/fred-kleber.jpg"
                                 alt="Image de la chambre d'hôtel montrant un lit" class="border-top-and-left">
@@ -106,7 +112,7 @@
                             </div>
                         </a>
                     </article>
-                    <article class="card margin-top background-white border-radius">
+                    <article class="card margin-top-30 background-white border-radius">
                         <a href="#" class="height-max display-flex flex-direction-column card-padding">
                             <img src="./assets/images/hebergements/febrian-zakaria.jpg"
                                 alt="Image de la chambre d'hôtel montrant un lit" class="border-top-and-left">
@@ -126,7 +132,7 @@
                             </div>
                         </a>
                     </article>
-                    <article class="card margin-top background-white border-radius">
+                    <article class="card margin-top-30 background-white border-radius">
                         <a href="#" class="height-max display-flex flex-direction-column card-padding">
                             <img src="./assets/images/hebergements/reisetopia.jpg"
                                 alt="Image de la chambre d'hôtel montrant un lit" class="border-top-and-left">
@@ -146,7 +152,7 @@
                             </div>
                         </a>
                     </article>
-                    <article class="card margin-top background-white border-radius">
+                    <article class="card margin-top-30 background-white border-radius">
                         <a href="#" class="height-max display-flex flex-direction-column card-padding">
                             <img src="./assets/images/hebergements/annie-spratt.jpg"
                                 alt="Image de la chambre d'hôtel montrant un lit" class="border-top-and-left">
@@ -166,7 +172,7 @@
                             </div>
                         </a>
                     </article>
-                    <article class="card margin-top background-white border-radius">
+                    <article class="card margin-top-30 background-white border-radius">
                         <a href="#" class="height-max display-flex flex-direction-column card-padding">
                             <img src="./assets/images/hebergements/marcus-loke.jpg"
                                 alt="Image de la chambre d'hôtel montrant un lit" class="border-top-and-left">
@@ -186,7 +192,7 @@
                             </div>
                         </a>
                     </article>
-                    <article class="card margin-top background-white border-radius">
+                    <article class="card margin-top-30 background-white border-radius">
                         <a href="#" class="height-max display-flex flex-direction-column card-padding">
                             <img src="./assets/images/hebergements/nicate-lee.jpg"
                                 alt="Image de la chambre d'hôtel montrant un lit" class="border-top-and-left">
@@ -207,11 +213,11 @@
                         </a>
                     </article>
                 </div>
-                <a href="#" class="accomodations-info margin-top text-font-size font-bold">Afficher plus</a>
+                <a href="#" class="accomodations-info margin-top-30 text-font-size font-bold">Afficher plus</a>
             </section>
 
             <section
-                class="popular-section box-sizing border-radius large-padding background-grey tablet-width-max mobile-width-max">
+                class="popular-section box-sizing border-radius padding-30 background-grey tablet-width-max mobile-width-max">
                 <div class="popular-title display-flex flex-justify-space-between flex-align-center">
                     <h2 class="section-title margin-null title-font-size">Les plus populaires</h2>
                     <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
@@ -288,7 +294,7 @@
         </div>
 
         <section class="activities-section mobile-padding mobile-flex-direction-column" id="activities-anchor">
-            <h2 class="section-title margin-bottom title-font-size">Activités à Marseille</h2>
+            <h2 class="section-title margin-bottom-30 title-font-size">Activités à Marseille</h2>
             <div class="activities-cards display-flex mobile-flex-direction-column">
                 <article class="card background-white border-radius">
                     <a href="#" class="height-max display-flex flex-direction-column">
@@ -325,17 +331,17 @@
         </section>
     </main>
 
-    <footer class="footer large-padding background-grey display-flex mobile-flex-direction-column">
+    <footer class="footer padding-30 background-grey display-flex mobile-flex-direction-column">
         <nav class="footer-nav">
             <h3 class="margin-null">À propos</h3>
-            <ul class="footer-list margin-null">
-                <li class="footer-list-element">
+            <ul class="footer-list margin-null padding-left-0">
+                <li class="list-style-type-none">
                     <a href="#">Fonctionnement du site</a>
                 </li>
-                <li class="footer-list-element">
+                <li class="list-style-type-none">
                     <a href="#">Conditions générales</a>
                 </li>
-                <li class="footer-list-element">
+                <li class="list-style-type-none">
                     <a href="#">Données et confidentialité</a>
                 </li>
             </ul>
@@ -343,11 +349,11 @@
 
         <nav class="footer-nav">
             <h3 class="margin-null">Nos hébergements</h3>
-            <ul class="footer-list margin-null">
-                <li class="footer-list-element">
+            <ul class="footer-list margin-null padding-left-0">
+                <li class="list-style-type-none">
                     <a href="#">Charte qualité</a>
                 </li>
-                <li class="footer-list-element">
+                <li class="list-style-type-none">
                     <a href="#">Proposer votre hôtel</a>
                 </li>
             </ul>
@@ -355,11 +361,11 @@
 
         <nav class="footer-nav">
             <h3 class="margin-null">Assistance</h3>
-            <ul class="footer-list margin-null">
-                <li class="footer-list-element">
+            <ul class="footer-list margin-null padding-left-0">
+                <li class="list-style-type-none">
                     <a href="#">Centre d'aide</a>
                 </li>
-                <li class="footer-list-element">
+                <li class="list-style-type-none">
                     <a href="#">Nous contacter</a>
                 </li>
             </ul>

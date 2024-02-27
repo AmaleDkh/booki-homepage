@@ -49,20 +49,18 @@
         gap: 30px;
     }
 
-    .navigation-menu {
-        gap: 0px;
+    .navigation-menu ul {
+        gap: 0;
     }
 
-    .navigation-menu a:hover {
-        border-top: none;
-        border-bottom-color: var(--main-color);
-        color: var(--main-color);
-        padding-top: 13px;
-    }
-
-    .menu-link-style {
+    .navigation-menu li {
         width: 50%;
         border-bottom: 2px solid var(--main-bg-color);
+    }
+
+    .navigation-menu li:hover {
+        border-top: none;
+        border-bottom-color: var(--main-color);
     }
 
     /* Filtres */
